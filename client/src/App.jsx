@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
 import Home from "./components/Home/Home"
 import Catalog from "./components/Catalog/Catalog"
-import AddProduct from "./components/AddProduct/AddProduct"
+import AddProduct from "./components/CreateProduct/AddProduct"
 
 function App() {
   return (
