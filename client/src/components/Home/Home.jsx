@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Home = () => {
 
     return (
@@ -5,7 +7,7 @@ const Home = () => {
             <section className="hero">
                 <h1>Welcome to TechHub</h1>
                 <p>Discover the latest in computing technology</p>
-                <a href="products.html" className="cta-button">Browse All Products</a>
+                <Link to="/products" className="cta-button">Browse All Products</Link>
             </section>
 
             <section className="featured-products">
