@@ -6,6 +6,7 @@ import Home from "./components/Home/Home"
 import Catalog from "./components/Catalog/Catalog"
 import AddProduct from "./components/CreateProduct/AddProduct"
 import Login from "./components/Login/Login"
+import Register from "./components/Register/Register"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/products" element={<Catalog />} />
         <Route path="/add-product" element={<AddProduct />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes >
       <Footer />
     </div>
